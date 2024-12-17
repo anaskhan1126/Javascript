@@ -1,0 +1,30 @@
+JS IS A LOOSELY TYPED LANGUAGE
+JS IS CASE SENSITIVE
+USED TO ADD FUNCTIONALITY TO WEBSITE
+INTERPRETED AT JUST-IN-TIME(RUNTIME)RATHER THAN COMPILE TIME
+PLATFORM INDEPENDENT
+ENHANCE WEBPAGES WITH DYNAMIC AND INTERECTIVE FEATURES
+VERY FAST
+SIMPLER RELATIVELY
+SERVER LOAD REDUCED
+VARIABLE----
+RULES SAME AS C 
+RESERVED KEYWORDS;;;;
+{
+abstract	arguments	boolean	break
+byte	case	catch	char
+const	continue	debugger	default
+delete	do	double	else
+eval	false	final	finally
+float	for	function	goto
+if	implements	in	instanceof
+int	interface	let	long
+native	new	null	package
+private	protected	public	return
+short	static	switch	synchronized
+this	throw	throws	transient
+true	try	typeof	var
+void	volatile	while	with
+yield
+}
+
