@@ -198,8 +198,49 @@
 // function sayHello(name,age){
 //     document.write(name+" is "+age+" years old");
 // }
-function add(a,b){
-      console.log(a+b);
-      document.write(a+b);
-}
-add(10,20);
+// function add(a,b){
+//       console.log(a+b);
+//       document.write(a+b);
+// }
+// add(10,20);
+//                  FUNCTIONS
+// var res=mul(14,30);
+// function mul(x,y)
+// {
+//       return x*y;
+// }
+// document.write(res);
+//                                 ARROW FUNCTION
+// var add=(a,b)=>{
+//       console.log(a+b);
+// };
+// add(102,20);
+// // arrow function for single line parameters
+// var add2=(a,b)=>console.log(a+b);
+// add2(30,50);
+//                              0PERATORS
+//                    STRING CONCATINATION
+// function myFunction(){
+//       var x=5+5;
+//       var y="5"+5;
+//       var z="Hello"+5;
+//       var demoP=document.getElementById("demo");
+//       demoP.innerHTML=x+"<br>"+y+"<br>"+z;
+// }
+//        ARRAY
+//ARRAY is collection of anything
+//Array is special kind of object in JS
+var myCollection=[
+      1,
+      "anas khan",
+      true,
+      {
+            name:"amaan",
+            age:22
+      },
+      function (name){
+            console.log(name);
+      },
+      "abhi","anurag","ashu","kumar"
+]
+console.log(myCollection);
