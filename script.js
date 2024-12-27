@@ -230,17 +230,87 @@
 //        ARRAY
 //ARRAY is collection of anything
 //Array is special kind of object in JS
-var myCollection=[
-      1,
-      "anas khan",
-      true,
+// var myCollection=[
+//       1,
+//       "anas khan",
+//       true,
+//       {
+//             name:"amaan",
+//             age:22
+//       },
+//       function (name){
+//             console.log(name);
+//       },
+//       "abhi","anurag","ashu","kumar"
+// ]
+// console.log(myCollection);
+//==================================ARGUMENTS=====================================================================================================
+// function information(firstName,lastName,language){
+//       if(arguments.length===3){
+//             console.log(lastName);
+//       console.log(firstName);
+//       console.log(language);}
+// }
+// information();
+// information('anas','khan','english');
+// function sayHello(){
+//       alert("Hello ANAS")
+// }
+// function over(){
+//       document.getElementById("mytext").style.color="red";
+
+// }
+// function mout(){
+//       document.getElementById("mytext").style.textDecoration="underline";
+
+// }
+// ===============================Dialog Box===============================================================================
+// var retVal=confirm("Do you want tocontinue?");if(retVal==true){
+//       alert("User wants to continue");
+// }
+// else{
+//       alert("User doies not want to continue");
+// }
+//==================================Prompt Dialog Box============================
+// var retVal=prompt("Enter your name:","your name here");
+// // alert("You have entered : "+retVal);
+// document.write("<h2>Hello "+retVal+"</h2>");
+// var ques="What is 10+10";
+// var ans=20;
+// var correct='<img src="tick.webp" height="150px" width="250px">';
+// var incorrect='<img src="cross.webp" height="150px" width="250px">';
+// var response=prompt(ques,"0");
+// for(let count=0;count<3;count++){
+//       if(response!=ans){
+//             confirm("Wrong.Press Ok for another chance");
+//             response=prompt(ques,"0");
+//             if(count==2){
+//                   alert("Better luck next time");
+//             }
+//       }
+//       else{
+//             alert("Great!you are right");
+//             count=3;
+//       }
+//       }
+// var output=(response==ans)?correct:incorrect;
+// document.write("</br>");
+// document.write(output);
+// ===========================REDIRECT PAGE=================================================================================
+// function Redirect(){
+//       window.location="https://www.facebook.com";
+
+// }
+// document.write("You will be redirected in 10sec");
+// setTimeout('redirect()',10000);  //  10000 in ms
+// Redirect();
+// ==========================FORM==================================================================================================
+function validateForm(){
+      var x=document.forms["myform"]["fname"].value;
+      if(x==null || x=="")
       {
-            name:"amaan",
-            age:22
-      },
-      function (name){
-            console.log(name);
-      },
-      "abhi","anurag","ashu","kumar"
-]
-console.log(myCollection);
+            alert("First name must be filled out");
+            return false;
+      }
+}
+
